@@ -1,0 +1,8 @@
+User-agent: *
+Allow: /
+Disallow: /admin/
+Disallow: /private/
+
+Sitemap: https://aifuye.net/sitemap.xml
+
+# Crawl-delay: 1
