@@ -4,6 +4,7 @@
       "source": "https://www.aifuye.net/:path*",
       "destination": "https://aifuye.net/:path*",
       "permanent": true
+      "statusCode": 301
     }
   ]
 }
