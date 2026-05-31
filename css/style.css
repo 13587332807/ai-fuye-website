@@ -1340,7 +1340,8 @@ h4 { font-size: 1.125rem; }
   transform: translateY(-2px);
   box-shadow: 0 4px 15px rgba(99,102,241,0.25);
 }
-.tag.active {
+.tag.active,
+.tag-filter .tag.active {
   background: linear-gradient(135deg, var(--primary), var(--primary-dark));
   color: #fff;
   border-color: var(--primary);
