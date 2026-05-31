@@ -102,8 +102,26 @@ ul, ol { list-style: none; }
   margin: 0 auto;
   padding: 0 24px;
 }
+/* Safe-area inset for notched iPhones */
+@supports (padding: env(safe-area-inset-left)) {
+  .container,
+  .header-inner,
+  .footer .container {
+    padding-left: max(24px, env(safe-area-inset-left));
+    padding-right: max(24px, env(safe-area-inset-right));
+  }
+  @media (max-width: 480px) {
+    .container,
+    .header-inner,
+    .footer .container {
+      padding-left: max(20px, env(safe-area-inset-left));
+      padding-right: max(20px, env(safe-area-inset-right));
+    }
+  }
+}
 @media (max-width: 480px) {
-  .container { padding: 0 16px; }
+  .container { padding: 0 20px; }
+  .header-inner { padding: 0 20px; }
 }
 
 /* --- Typography --- */
@@ -1154,6 +1172,8 @@ h4 { font-size: 1.125rem; }
 }
 
 @media (max-width: 768px) {
+  .container { padding: 0 22px; }
+  .header-inner { padding: 0 22px; }
   .mobile-menu-btn { display: flex; }
   .nav {
     position: fixed;
