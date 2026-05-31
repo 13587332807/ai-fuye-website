@@ -1,0 +1,9 @@
+{
+  "redirects": [
+    {
+      "source": "https://www.aifuye.net/:path*",
+      "destination": "https://aifuye.net/:path*",
+      "permanent": true
+    }
+  ]
+}
