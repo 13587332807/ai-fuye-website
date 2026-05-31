@@ -23,6 +23,11 @@
   }
   </script>
   <link rel="stylesheet" href="css/style.css">
+    <!-- Favicon -->
+  <link rel="icon" type="image/svg+xml" href="images/favicon.svg">
+  <link rel="icon" type="image/x-icon" href="images/favicon.ico">
+  <link rel="apple-touch-icon" sizes="180x180" href="images/apple-touch-icon.png">
+  <meta name="theme-color" content="#6366f1">
   <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
   <!-- AdSense -->
   <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-XXXXXXXX" crossorigin="anonymous"></script>
@@ -34,7 +39,7 @@
 <header class="header" role="banner">
   <div class="header-inner">
     <a href="index.html" class="logo" aria-label="AI副业指南首页">
-      <span class="logo-icon"></span>
+      <img src="images/logo.svg" alt="AI副业指南" class="logo-icon" width="32" height="32">
       <span>AI副业指南</span>
     </a>
     <button class="mobile-menu-btn" aria-label="菜单" aria-expanded="false">
@@ -68,7 +73,7 @@
     <h2 class="section-title mt-32">✍️ AI写作与对话工具</h2>
     <p class="section-subtitle">内容创作、文案撰写、翻译润色——AI副业第一桶金</p>
     <div class="tools-grid">
-      <article class="tool-card">
+      <article class="tool-card" data-category="writing">
         <div class="tool-header">
           <div class="tool-icon">🤖</div>
           <div class="tool-name"><h4>ChatGPT (GPT-5)</h4><span>OpenAI</span></div>
@@ -83,7 +88,7 @@
         </div>
       </article>
 
-      <article class="tool-card">
+      <article class="tool-card" data-category="writing">
         <div class="tool-header">
           <div class="tool-icon">🧠</div>
           <div class="tool-name"><h4>Claude 4</h4><span>Anthropic</span></div>
@@ -98,7 +103,7 @@
         </div>
       </article>
 
-      <article class="tool-card">
+      <article class="tool-card" data-category="writing">
         <div class="tool-header">
           <div class="tool-icon">🔍</div>
           <div class="tool-name"><h4>DeepSeek</h4><span>深度求索</span></div>
@@ -113,7 +118,7 @@
         </div>
       </article>
 
-      <article class="tool-card">
+      <article class="tool-card" data-category="writing">
         <div class="tool-header">
           <div class="tool-icon">💬</div>
           <div class="tool-name"><h4>豆包 / 通义千问</h4><span>字节/阿里</span></div>
@@ -149,7 +154,7 @@
     <h2 class="section-title mt-32">🎨 AI绘画与设计工具</h2>
     <p class="section-subtitle">图像生成、设计辅助、创意视觉——变现能力最强的方向之一</p>
     <div class="tools-grid">
-      <article class="tool-card">
+      <article class="tool-card" data-category="art">
         <div class="tool-header">
           <div class="tool-icon">🎨</div>
           <div class="tool-name"><h4>Midjourney V6</h4><span>Midjourney Inc.</span></div>
@@ -164,7 +169,7 @@
         </div>
       </article>
 
-      <article class="tool-card">
+      <article class="tool-card" data-category="art">
         <div class="tool-header">
           <div class="tool-icon">🖼️</div>
           <div class="tool-name"><h4>Stable Diffusion 3</h4><span>Stability AI</span></div>
@@ -179,7 +184,7 @@
         </div>
       </article>
 
-      <article class="tool-card">
+      <article class="tool-card" data-category="art">
         <div class="tool-header">
           <div class="tool-icon">✨</div>
           <div class="tool-name"><h4>即梦AI / 文心一</h4><span>字节/百度</span></div>
@@ -195,7 +200,7 @@
         </div>
       </article>
 
-      <article class="tool-card">
+      <article class="tool-card" data-category="art">
         <div class="tool-header">
           <div class="tool-icon">✏️</div>
           <div class="tool-name"><h4>Canva AI</h4><span>Canva</span></div>
@@ -216,7 +221,7 @@
     <h2 class="section-title mt-32">🎬 AI视频创作工具</h2>
     <p class="section-subtitle">2026年最火赛道——AI视频生成与编辑工</p>
     <div class="tools-grid">
-      <article class="tool-card">
+      <article class="tool-card" data-category="video">
         <div class="tool-header">
           <div class="tool-icon">🎬</div>
           <div class="tool-name"><h4>Sora 2.0</h4><span>OpenAI</span></div>
@@ -231,7 +236,7 @@
         </div>
       </article>
 
-      <article class="tool-card">
+      <article class="tool-card" data-category="video">
         <div class="tool-header">
           <div class="tool-icon">🎥</div>
           <div class="tool-name"><h4>Runway Gen-4</h4><span>Runway</span></div>
@@ -246,7 +251,7 @@
         </div>
       </article>
 
-      <article class="tool-card">
+      <article class="tool-card" data-category="video">
         <div class="tool-header">
           <div class="tool-icon">📹</div>
           <div class="tool-name"><h4>可灵 / 即梦视频</h4><span>快手/字节</span></div>
@@ -262,7 +267,7 @@
         </div>
       </article>
 
-      <article class="tool-card">
+      <article class="tool-card" data-category="video">
         <div class="tool-header">
           <div class="tool-icon">✂️</div>
           <div class="tool-name"><h4>剪映AI</h4><span>字节跳动</span></div>
@@ -282,7 +287,7 @@
     <h2 class="section-title mt-32">💻 AI编程与开发工具</h2>
     <p class="section-subtitle">非程序员也能写代码赚钱——AI编程助手让开发门槛降到历史最低</p>
     <div class="tools-grid">
-      <article class="tool-card">
+      <article class="tool-card" data-category="code">
         <div class="tool-header">
           <div class="tool-icon">💻</div>
           <div class="tool-name"><h4>Cursor</h4><span>Anysphere</span></div>
@@ -298,7 +303,7 @@
         </div>
       </article>
 
-      <article class="tool-card">
+      <article class="tool-card" data-category="code">
         <div class="tool-header">
           <div class="tool-icon">⚡</div>
           <div class="tool-name"><h4>Bolt.new / v0</h4><span>StackBlitz / Vercel</span></div>
@@ -314,7 +319,7 @@
         </div>
       </article>
 
-      <article class="tool-card">
+      <article class="tool-card" data-category="code">
         <div class="tool-header">
           <div class="tool-icon">🐙</div>
           <div class="tool-name"><h4>GitHub Copilot</h4><span>GitHub/Microsoft</span></div>
@@ -334,7 +339,7 @@
     <h2 class="section-title mt-32">AI配音与音频工具</h2>
     <p class="section-subtitle">真人级配音、背景音乐生成、播客制作——音频变现新机会</p>
     <div class="tools-grid">
-      <article class="tool-card">
+      <article class="tool-card" data-category="code">
         <div class="tool-header">
           <div class="tool-icon">🎙️</div>
           <div class="tool-name"><h4>ElevenLabs</h4><span>ElevenLabs</span></div>
@@ -350,7 +355,7 @@
         </div>
       </article>
 
-      <article class="tool-card">
+      <article class="tool-card" data-category="code">
         <div class="tool-header">
           <div class="tool-icon">🎵</div>
           <div class="tool-name"><h4>Suno / Udio</h4><span>Suno Inc.</span></div>
@@ -366,7 +371,7 @@
         </div>
       </article>
 
-      <article class="tool-card">
+      <article class="tool-card" data-category="code">
         <div class="tool-header">
           <div class="tool-icon">🎤</div>
           <div class="tool-name"><h4>剪映配音 / 魔音工坊</h4><span>字节/出门问问</span></div>
