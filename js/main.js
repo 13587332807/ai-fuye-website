@@ -117,6 +117,92 @@
     window.scrollTo({ top: 0, behavior: 'smooth' });
   });
 
+  // ========== 文章标签筛选 ==========
+  var tagFilter = document.getElementById('tagFilter');
+  var articleCards = document.querySelectorAll('.article-card[data-category]');
+
+  if (tagFilter && articleCards.length > 0) {
+    var filterBtns = tagFilter.querySelectorAll('.tag');
+    var articlesGrid = document.querySelector('.articles-grid');
+
+    function filterArticles(category) {
+      var visibleCount = 0;
+      articleCards.forEach(function(card, index) {
+        var cardCat = card.getAttribute('data-category');
+        var shouldShow = (category === 'all' || cardCat === category);
+        
+        if (shouldShow) {
+          card.style.display = '';
+          card.style.animation = 'fadeInUp 0.4s ease forwards';
+          card.style.animationDelay = (visibleCount * 0.06) + 's';
+          visibleCount++;
+        } else {
+          card.style.display = 'none';
+          card.style.animation = 'none';
+          card.style.animationDelay = '0s';
+        }
+      });
+
+      // Show "no results" message if nothing visible
+      var existingMsg = document.querySelector('.no-results-msg');
+      if (existingMsg) existingMsg.remove();
+
+      if (visibleCount === 0 && articlesGrid) {
+        var msg = document.createElement('p');
+        msg.className = 'no-results-msg';
+        msg.style.cssText = 'text-align:center;padding:60px 0;color:var(--text-tertiary);font-size:1rem;grid-column:1/-1;';
+        msg.textContent = '该分类暂无文章，请查看其他分类';
+        articlesGrid.appendChild(msg);
+      }
+    }
+
+    filterBtns.forEach(function(btn) {
+      btn.addEventListener('click', function(e) {
+        e.preventDefault();
+        // Update active state
+        filterBtns.forEach(function(b) { b.classList.remove('active'); });
+        btn.classList.add('active');
+        // Filter
+        var category = btn.getAttribute('data-filter');
+        filterArticles(category);
+      });
+    });
+  }
+
+  // Also support filter on index.html if present
+  var indexTagFilter = document.querySelector('.hero-categories');
+  if (indexTagFilter) {
+    indexTagFilter.querySelectorAll('.hero-card').forEach(function(card) {
+      card.addEventListener('click', function() {
+        // Navigate to articles page with filter
+        var link = card.querySelector('a');
+        if (link) {
+          var href = link.getAttribute('href');
+          if (href && href.includes('articles/')) {
+            var filter = card.getAttribute('data-filter');
+            if (filter) {
+              sessionStorage.setItem('articleFilter', filter);
+            }
+          }
+        }
+      });
+    });
+  }
+
+  // Apply saved filter on articles page
+  if (tagFilter && articleCards.length > 0) {
+    var savedFilter = sessionStorage.getItem('articleFilter');
+    if (savedFilter) {
+      sessionStorage.removeItem('articleFilter');
+      var targetBtn = tagFilter.querySelector('[data-filter="' + savedFilter + '"]');
+      if (targetBtn) {
+        filterBtns.forEach(function(b) { b.classList.remove('active'); });
+        targetBtn.classList.add('active');
+        filterArticles(savedFilter);
+      }
+    }
+  }
+
   // ========== 广告加载 (AdSense + 百度联盟) ==========
   function loadAds() {
     if (typeof ADS_CONFIG === 'undefined') return;

@@ -1327,6 +1327,11 @@ h4 { font-size: 1.125rem; }
   transition: all var(--transition-smooth);
   cursor: pointer;
   font-weight: 500;
+  font-family: inherit;
+  text-decoration: none;
+  display: inline-flex;
+  align-items: center;
+  line-height: 1.4;
 }
 .tag:hover {
   background: linear-gradient(135deg, var(--primary), var(--primary-dark));
@@ -1334,6 +1339,24 @@ h4 { font-size: 1.125rem; }
   color: #fff;
   transform: translateY(-2px);
   box-shadow: 0 4px 15px rgba(99,102,241,0.25);
+}
+.tag.active {
+  background: linear-gradient(135deg, var(--primary), var(--primary-dark));
+  color: #fff;
+  border-color: var(--primary);
+  box-shadow: 0 2px 12px rgba(99,102,241,0.3);
+}
+.tag-filter {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  justify-content: center;
+  margin-bottom: 32px;
+}
+.tag-filter .tag {
+  border: 1px solid var(--border);
+  background: var(--bg-card);
+  outline: none;
 }
 
 /* FAQ */
@@ -1934,27 +1957,6 @@ table tbody tr {
 table tbody tr:hover {
   background: rgba(99,102,241,0.03);
   box-shadow: inset 4px 0 0 var(--primary);
-}
-
-/* --- Tags: Gradient Style --- */
-.tag {
-  display: inline-flex;
-  align-items: center;
-  padding: 6px 16px;
-  border-radius: var(--radius-full);
-  font-size: 0.82rem;
-  font-weight: 500;
-  background: rgba(99,102,241,0.06);
-  color: var(--primary);
-  border: 1px solid rgba(99,102,241,0.12);
-  transition: all var(--transition-smooth);
-  text-decoration: none;
-}
-.tag:hover {
-  background: var(--primary);
-  color: #fff;
-  border-color: var(--primary);
-  transform: translateY(-1px);
 }
 
 /* --- CTA Section: Gradient Background --- */
