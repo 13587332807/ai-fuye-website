@@ -1,45 +1,58 @@
 /**
- * AI鍓笟鎸囧崡 (aifuye.net) - 骞垮憡閰嶇疆鏂囦欢
+ * AI副业指南 (aifuye.net) - 广告配置文件
  * ========================================
- * 馃幆 杩欐槸鍏ㄧ珯鍞竴涓渶瑕佷慨鏀圭殑閰嶇疆鏂囦欢銆? * 鎷垮埌 AdSense / 鐧惧害鑱旂洘 ID 鍚庯紝鍙敼杩欎竴涓枃浠跺嵆鍙�? *
- * 馃搵 浣跨敤姝ラ锛? * 1. 鐢宠 Google AdSense 鈫?https://www.google.com/adsense
- *    瀹℃牳閫氳繃鍚庢嬁鍒?pubId锛堟牸寮忥細ca-pub-1234567890123456锛? *    鎶?ca-pub-XXXXXXXX 鍏ㄩ儴鏇挎崲鎴愪綘鐨?pubId
+ * ? 这是全站唯一一个需要修改的配置文件。
+ * 拿到 AdSense / 百度联盟 ID 后，只改这一个文件即可。
  *
- * 2. 鐢宠鐧惧害鑱旂洘 鈫?https://union.baidu.com
- *    瀹℃牳閫氳繃鍚庡湪銆屼唬鐮佷綅绠＄悊銆嶅垱寤哄箍鍛婁綅锛屾嬁鍒?cpro_id
- *    鎶?xxxxxxxx 鏇挎崲鎴愪綘鐨?cpro_id
+ * ? 使用步骤：
+ * 1. 申请 Google AdSense → https://www.google.com/adsense
+ *    审核通过后拿到 pubId（格式：ca-pub-1234567890123456）
+ *    把 ca-pub-XXXXXXXX 全部替换成你的 pubId
  *
- * 3. 鎯宠鏌愪釜骞冲彴涓嶆樉绀猴紵鎶?enabled 璁句负 false 鍗冲彲銆? *
- * 馃挕 鎻愮ず锛氬鏋滀笉纭畾鐢ㄤ粈涔堢瓥鐣ワ紝淇濇寔 strategy: 'both' 鍗冲彲銆? */
+ * 2. 申请百度联盟 → https://union.baidu.com
+ *    审核通过后在「代码位管理」创建广告位，拿到 cpro_id
+ *    把 xxxxxxxx 替换成你的 cpro_id
+ *
+ * 3. 想让某个平台不显示？把 enabled 设为 false 即可。
+ *
+ * ? 提示：如果不确定用什么策略，保持 strategy: 'both' 即可。
+ */
 
 var ADS_CONFIG = {
 
   // ========== Google AdSense ==========
   adsense: {
-    enabled: true,   // 璁句负 false 鍙叧闂?AdSense
-    pubId: 'ca-pub-XXXXXXXX',  // 鈫?鏇挎崲鎴愪綘鐨?AdSense 鍙戝竷鍟?ID
+    enabled: true,   // 设为 false 可关闭 AdSense
+    pubId: 'ca-pub-XXXXXXXX',  // ← 替换成你的 AdSense 发布商 ID
     slots: {
-      header:   '0000000000',  // 鈫?鏇挎崲鎴愪綘鍦?AdSense 鍚庡彴鍒涘缓鐨勫箍鍛婂崟鍏?ID
+      header:   '0000000000',  // ← 替换成你在 AdSense 后台创建的广告单元 ID
       inArticle: '0000000000',
       sidebar:  '1111111111',
     }
   },
 
-  // ========== 鐧惧害鑱旂洘 ==========
+  // ========== 百度联盟 ==========
   baidu: {
-    enabled: true,   // 璁句负 false 鍙叧闂櫨搴﹁仈鐩?    // 榛樿鐧惧害鑱旂洘鎺ㄥ箍浣?ID锛堝湪鐧惧害鑱旂洘鍚庡彴銆岃幏鍙栦唬鐮併�嶅鑾峰彇锛?    cproId: 'xxxxxxxx',   // 鈫?鏇挎崲鎴愪綘鐨勭櫨搴﹁仈鐩?cpro_id
-    // 鎸変綅缃尯鍒嗙殑 slots锛堝彲閫夛紝涓嶅悓浣嶇疆鐢ㄤ笉鍚屽箍鍛婂崟鍏冨彲鎻愰珮鏀剁泭锛?    slots: {
-      header:    '',  // 鈫?椤堕儴妯箙骞垮憡浣?cpro_id锛堟病鏈夊垯鐣欑┖锛?      inArticle: '',  // 鈫?鏂囩珷鍐呭箍鍛婁綅 cpro_id
-      sidebar:   '',  // 鈫?渚ц竟鏍忓箍鍛婁綅 cpro_id
+    enabled: true,   // 设为 false 可关闭百度联盟
+    // 默认百度联盟推广位 ID（在百度联盟后台「获取代码」处获取）
+    cproId: 'xxxxxxxx',   // ← 替换成你的百度联盟 cpro_id
+    // 按位置区分的 slots（可选，不同位置用不同广告单元可提高收益）
+    slots: {
+      header:    '',  // ← 顶部横幅广告位 cpro_id（没有则留空）
+      inArticle: '',  // ← 文章内广告位 cpro_id
+      sidebar:   '',  // ← 侧边栏广告位 cpro_id
     },
-    // 鐧惧害鍥炲脊锛堝彲閫夛紝鎻愰珮鏀剁泭锛?    tuiId: '',   // 鈫?濡傛湁鍥炲脊 ID 濉繖閲岋紝娌℃湁鐣欑┖
+    // 百度回弹（可选，提高收益）
+    tuiId: '',   // ← 如有回弹 ID 填这里，没有留空
   },
 
-  // ========== 鏄剧ず绛栫暐 ==========
+  // ========== 显示策略 ==========
   strategy: 'both',
-  // 'adsense-only'  鈫?鍙樉绀?Google AdSense
-  // 'baidu-only'    鈫?鍙樉绀虹櫨搴﹁仈鐩?  // 'both'          鈫?鍚屾椂鏄剧ず锛堟帹鑽愶紝瑕嗙洊鍥藉唴澶栨祦閲忥級
-  // 'auto'          鈫?鏍规嵁璁垮 IP 鑷姩閫夋嫨锛堥渶棰濆 JS锛屾殏涓嶅彲鐢級
+  // 'adsense-only'   → 只显示 Google AdSense
+  // 'baidu-only'     → 只显示百度联盟
+  // 'both'           → 同时显示（推荐，覆盖国内外流量）
+  // 'auto'           → 根据访客 IP 自动选择（需额外 JS，暂不可用）
 
-  // ========== 璋冭瘯妯″紡 ==========
-  debug: false  // 璁句负 true 鍙湪鎺у埗鍙扮湅鍒板箍鍛婂姞杞芥棩蹇?};
+  // ========== 调试模式 ==========
+  debug: false  // 设为 true 可在控制台看到广告加载日志
+};

@@ -260,7 +260,8 @@
     });
 
     // 如果 strategy 是 adsense-only，隐藏百度广告
-    if (strategy === 'adsense-only') {
+    var baiduStrategy = (ADS_CONFIG.strategy || 'both').toLowerCase();
+    if (baiduStrategy === 'adsense-only') {
       document.querySelectorAll('.ad-baidu').forEach(function(el) {
         el.style.display = 'none';
       });
