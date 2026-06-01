@@ -1,0 +1,38 @@
+# AI副业指南 (aifuye.net)
+
+> 2026年最全面的AI副业变现中文指南。覆盖AI写作、AI绘画、AI视频、AI编程四大方向，提供从零基础到月入过万的完整实操路径。包含20+种变现方法、100+款AI工具推荐、9篇深度教程文章、9个真实成功案例、新手7天入门计划。
+
+这是一个面向中文用户的AI副业知识网站。所有内容基于2026年最新AI工具生态编写，包括ChatGPT(GPT-5)、Claude 4、DeepSeek、豆包、Midjourney V6、Sora 2.0、Cursor等。网站采用纯静态HTML架构，托管于Vercel，已提交Bing和百度搜索引擎。
+
+## 核心入口
+
+- [首页：AI副业变现大全](https://aifuye.net/): 网站首页，展示四大核心方向、最新文章、热门案例
+- [变现方法大全](https://aifuye.net/methods.html): 20种AI副业变现方法详解，含收入预估和难度评级
+- [AI工具大全](https://aifuye.net/tools.html): 17款AI工具的详细介绍、价格对比和使用场景
+- [新手入门完全指南](https://aifuye.net/beginner.html): 零基础7天从注册工具到接第一单的完整计划
+- [真实变现案例](https://aifuye.net/cases.html): 9个月入过万的AI副业真实案例拆解
+- [全部文章列表](https://aifuye.net/articles/): 15篇AI副业教程文章，按12个分类标签组织
+
+## AI写作教程
+
+- [AI写作接单完全指南](https://aifuye.net/articles/ai-writing-guide.html): 从入门到月入5000+，含5个核心技能、4大接单渠道、完整定价策略和工作流
+- [AI+小红书爆款笔记](https://aifuye.net/articles/ai-xiaohongshu-guide.html): 从0到10万粉丝，含5种变现方法、AI工具组合、真实案例月入2.4万
+
+## AI绘画教程
+
+- [AI绘画变现8种方法](https://aifuye.net/articles/ai-art-money.html): Midjourney V6 + Stable Diffusion 3，覆盖头像定制、商业设计、图库销售、表情包、NFT、POD等
+
+## AI视频教程
+
+- [AI视频创作指南](https://aifuye.net/articles/ai-video-creator.html): Sora + Runway + 剪映组合，一个人替代短视频团队，含5种变现路径
+- [AI+YouTube副业变现](https://aifuye.net/articles/ai-youtube-guide.html): 零基础到月入$3000+，含完整工作流和真实案例
+
+## AI编程教程
+
+- [非程序员AI编程接单](https://aifuye.net/articles/ai-coding-freelance.html): Cursor + Copilot组合，含5种适合零基础的项目类型和接单平台
+- [AI+无代码建站](https://aifuye.net/articles/ai-no-code.html): Bolt.new + v0 + Lovable，30分钟搭建能赚钱的AI工具网站
+- [AI联盟营销实战](https://aifuye.net/articles/ai-affiliate-guide.html): 搭建自动化Affiliate网站，含Amazon/淘宝联盟/SaaS佣金对比
+
+## 工具评测
+
+- [AI副业必备工具Top 20排行榜](https://aifuye.net/articles/ai-tools-ranking.html): 2026年度精选20款工具，含价格对比和新手免费组合推荐
