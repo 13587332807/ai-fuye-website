@@ -1,10 +1,15 @@
 {
   "redirects": [
     {
-      "source": "https://www.aifuye.net/:path*",
+      "source": "/:path*",
+      "has": [
+        {
+          "type": "host",
+          "value": "www.aifuye.net"
+        }
+      ],
       "destination": "https://aifuye.net/:path*",
       "permanent": true
-      "statusCode": 301
     }
   ]
 }
