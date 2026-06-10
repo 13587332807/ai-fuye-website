@@ -103,6 +103,30 @@
     <priority>0.7</priority>
   </url>
   <url>
+    <loc>https://aifuye.net/articles/ai-cross-border.html</loc>
+    <lastmod>2026-06-10</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://aifuye.net/articles/ai-xiaohongshu-batch.html</loc>
+    <lastmod>2026-06-10</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://aifuye.net/articles/ai-digital-human-livestream.html</loc>
+    <lastmod>2026-06-10</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.9</priority>
+  </url>
+  <url>
+    <loc>https://aifuye.net/articles/ai-prompt-selling.html</loc>
+    <lastmod>2026-06-10</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.9</priority>
+  </url>
+  <url>
     <loc>https://aifuye.net/llms.txt</loc>
     <lastmod>2026-06-01</lastmod>
     <changefreq>weekly</changefreq>
