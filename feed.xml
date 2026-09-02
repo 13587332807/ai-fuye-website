@@ -5,7 +5,7 @@
     <link>https://aifuye.net/</link>
     <description>AI副业指南提供2026年最全面的AI副业变现方法、工具推荐和实战教程。涵盖AI写作、AI绘画、AI视频、AI编程等方向。</description>
     <language>zh-CN</language>
-    <lastBuildDate>Sun, 01 Jun 2026 08:00:00 +0800</lastBuildDate>
+    <lastBuildDate>Wed, 02 Sep 2026 12:00:00 +0800</lastBuildDate>
     <atom:link href="https://aifuye.net/feed.xml" rel="self" type="application/rss+xml"/>
     <generator>AI副业指南</generator>
     <image>
@@ -13,6 +13,24 @@
       <title>AI副业指南</title>
       <link>https://aifuye.net/</link>
     </image>
+
+    <item>
+      <title>AI漫剧制作全攻略：0基础用AI把小说变成爆款漫剧</title>
+      <link>https://aifuye.net/articles/ai-manga-drama-guide.html</link>
+      <description>2026年AI漫剧爆发元年，不用手绘不用真人出镜，一个人就能做动态漫剧。含平台对比、工具链、制作流程、提示词模板与版权红线。</description>
+      <pubDate>Wed, 02 Sep 2026 12:00:00 +0800</pubDate>
+      <guid>https://aifuye.net/articles/ai-manga-drama-guide.html</guid>
+      <category>AI漫剧</category>
+    </item>
+
+    <item>
+      <title>AI漫剧变现指南：6大赚钱渠道拆解，新手先做CPS分销当天出单</title>
+      <link>https://aifuye.net/articles/ai-manga-drama-money.html</link>
+      <description>短剧小程序CPS分销（佣金50%-90%）、平台流量分账、小说推文、官方保底付费、商单接单、私域六大渠道全拆解，附避坑指南与矩阵打法。</description>
+      <pubDate>Wed, 02 Sep 2026 12:00:00 +0800</pubDate>
+      <guid>https://aifuye.net/articles/ai-manga-drama-money.html</guid>
+      <category>AI漫剧</category>
+    </item>
 
     <item>
       <title>AI+YouTube副业变现：2026年零基础到月入$3000+</title>

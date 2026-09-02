@@ -11,7 +11,7 @@
 - [AI工具大全](https://aifuye.net/tools.html): 17款AI工具的详细介绍、价格对比和使用场景
 - [新手入门完全指南](https://aifuye.net/beginner.html): 零基础7天从注册工具到接第一单的完整计划
 - [真实变现案例](https://aifuye.net/cases.html): 9个月入过万的AI副业真实案例拆解
-- [全部文章列表](https://aifuye.net/articles/): 15篇AI副业教程文章，按12个分类标签组织
+- [全部文章列表](https://aifuye.net/articles/): 15篇AI副业教程文章，按14个分类标签组织
 
 ## AI写作教程
 
@@ -36,3 +36,8 @@
 ## 工具评测
 
 - [AI副业必备工具Top 20排行榜](https://aifuye.net/articles/ai-tools-ranking.html): 2026年度精选20款工具，含价格对比和新手免费组合推荐
+
+## AI漫剧教程
+
+- [AI漫剧制作全攻略](https://aifuye.net/articles/ai-manga-drama-guide.html): 0基础用AI把小说变成爆款漫剧，含平台对比、工具链、制作流程、提示词模板与版权红线
+- [AI漫剧变现指南](https://aifuye.net/articles/ai-manga-drama-money.html): 六大赚钱渠道拆解：CPS分销、平台分账、小说推文、官方保底、商单接单、私域
