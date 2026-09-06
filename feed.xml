@@ -5,7 +5,7 @@
     <link>https://aifuye.net/</link>
     <description>AI副业指南提供2026年最全面的AI副业变现方法、工具推荐和实战教程。涵盖AI写作、AI绘画、AI视频、AI编程等方向。</description>
     <language>zh-CN</language>
-    <lastBuildDate>Wed, 02 Sep 2026 12:00:00 +0800</lastBuildDate>
+    <lastBuildDate>Mon, 07 Sep 2026 12:00:00 +0800</lastBuildDate>
     <atom:link href="https://aifuye.net/feed.xml" rel="self" type="application/rss+xml"/>
     <generator>AI副业指南</generator>
     <image>
@@ -13,6 +13,24 @@
       <title>AI副业指南</title>
       <link>https://aifuye.net/</link>
     </image>
+
+    <item>
+      <title>AI Agent开发副业指南：0代码也能月入过万的5条真实路径</title>
+      <link>https://aifuye.net/articles/ai-agent-development.html</link>
+      <description>用Coze/Dify帮企业搭智能客服、自动化流程、垂直Agent，月入3000-30000元。含4大平台对比、5条已跑通路径、定价策略和4个可复用Agent提示词模板。</description>
+      <pubDate>Mon, 07 Sep 2026 12:00:00 +0800</pubDate>
+      <guid>https://aifuye.net/articles/ai-agent-development.html</guid>
+      <category>AI Agent</category>
+    </item>
+
+    <item>
+      <title>AI儿童绘本变现指南：0基础月入5000+的绘本创作全流程</title>
+      <link>https://aifuye.net/articles/ai-childrens-book.html</link>
+      <description>用即梦AI+豆包/Kimi 0基础1天出一本绘本。含7个爆款选题、故事生成Prompt、5个保角色一致性技巧、4大变现渠道对比和3个真实案例拆解。</description>
+      <pubDate>Mon, 07 Sep 2026 12:00:00 +0800</pubDate>
+      <guid>https://aifuye.net/articles/ai-childrens-book.html</guid>
+      <category>儿童绘本</category>
+    </item>
 
     <item>
       <title>AI漫剧制作全攻略：0基础用AI把小说变成爆款漫剧</title>
