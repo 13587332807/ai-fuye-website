@@ -5,7 +5,7 @@
     <link>https://aifuye.net/</link>
     <description>AI副业指南提供2026年最全面的AI副业变现方法、工具推荐和实战教程。涵盖AI写作、AI绘画、AI视频、AI编程等方向。</description>
     <language>zh-CN</language>
-    <lastBuildDate>Mon, 07 Sep 2026 12:00:00 +0800</lastBuildDate>
+    <lastBuildDate>Tue, 22 Sep 2026 12:00:00 +0800</lastBuildDate>
     <atom:link href="https://aifuye.net/feed.xml" rel="self" type="application/rss+xml"/>
     <generator>AI副业指南</generator>
     <image>
@@ -13,6 +13,24 @@
       <title>AI副业指南</title>
       <link>https://aifuye.net/</link>
     </image>
+
+    <item>
+      <title>AI表情包变现指南：0基础制作微信表情包，月入3000+的完整攻略</title>
+      <link>https://aifuye.net/articles/ai-emoji-money.html</link>
+      <description>不会画画也能做微信表情包，AI生成+上架审核+赞赏变现全流程拆解，附可复制的AI提示词模板。</description>
+      <pubDate>Tue, 22 Sep 2026 12:00:00 +0800</pubDate>
+      <guid>https://aifuye.net/articles/ai-emoji-money.html</guid>
+      <category>AI表情包</category>
+    </item>
+
+    <item>
+      <title>AI老照片修复副业指南：一单50-300元的怀旧经济全攻略</title>
+      <link>https://aifuye.net/articles/ai-photo-restoration.html</link>
+      <description>用AI修复模糊破损黑白老照片，单张50-300元，拆解工具、流程、接单渠道和定价策略。</description>
+      <pubDate>Tue, 22 Sep 2026 12:00:00 +0800</pubDate>
+      <guid>https://aifuye.net/articles/ai-photo-restoration.html</guid>
+      <category>AI修复</category>
+    </item>
 
     <item>
       <title>AI Agent开发副业指南：0代码也能月入过万的5条真实路径</title>
