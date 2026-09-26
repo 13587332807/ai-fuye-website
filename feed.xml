@@ -5,7 +5,7 @@
     <link>https://aifuye.net/</link>
     <description>AI副业指南提供2026年最全面的AI副业变现方法、工具推荐和实战教程。涵盖AI写作、AI绘画、AI视频、AI编程等方向。</description>
     <language>zh-CN</language>
-    <lastBuildDate>Tue, 22 Sep 2026 12:00:00 +0800</lastBuildDate>
+    <lastBuildDate>Sun, 27 Sep 2026 12:00:00 +0800</lastBuildDate>
     <atom:link href="https://aifuye.net/feed.xml" rel="self" type="application/rss+xml"/>
     <generator>AI副业指南</generator>
     <image>
@@ -13,6 +13,24 @@
       <title>AI副业指南</title>
       <link>https://aifuye.net/</link>
     </image>
+
+    <item>
+      <title>AI简历优化副业指南：金九银十一单99-699元，月入5000+的闷声生意</title>
+      <link>https://aifuye.net/articles/ai-resume-optimization.html</link>
+      <guid isPermaLink="true">https://aifuye.net/articles/ai-resume-optimization.html</guid>
+      <pubDate>Sun, 27 Sep 2026 12:00:00 +0800</pubDate>
+      <description>1200万毕业生+6秒简历筛选，简历优化是求职季最稳的刚需副业。AI把2小时压缩到30分钟，一单99-699元，闲鱼+小红书接单月入5000+。含三档定价、7步流程、3套提示词模板和获客实操。</description>
+      <category>AI求职</category>
+    </item>
+
+    <item>
+      <title>AI直播切片带货指南：不露脸不写稿，5个号矩阵月入1.5万+</title>
+      <link>https://aifuye.net/articles/ai-live-clipping.html</link>
+      <guid isPermaLink="true">https://aifuye.net/articles/ai-live-clipping.html</guid>
+      <pubDate>Sun, 27 Sep 2026 12:00:00 +0800</pubDate>
+      <description>拿正规授权→AI批量剪辑→挂链接赚佣金，把一场直播价值放大10倍。含授权渠道、AI切片工具对比、防搬运去重三件套、T+30结算规则与真实收益账本。</description>
+      <category>AI切片</category>
+    </item>
 
     <item>
       <title>AI表情包变现指南：0基础制作微信表情包，月入3000+的完整攻略</title>
