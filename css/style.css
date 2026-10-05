@@ -2082,3 +2082,103 @@ table tbody tr:hover {
   opacity: 0.85;
   box-shadow: 0 0 10px 2px rgba(99,102,241,0.3), 0 0 30px 6px rgba(99,102,241,0.1);
 }
+
+/* --- Header Search (全站搜索) --- */
+.header-search {
+  position: relative;
+  margin-left: auto;
+  margin-right: 12px;
+  display: flex;
+  align-items: center;
+}
+.hs-icon {
+  position: absolute;
+  left: 14px;
+  font-size: 0.85rem;
+  pointer-events: none;
+  opacity: 0.55;
+  z-index: 1;
+}
+.hs-input {
+  width: 200px;
+  padding: 9px 16px 9px 38px;
+  border: 1.5px solid var(--border);
+  border-radius: var(--radius-full);
+  background: var(--bg-secondary);
+  font-size: 0.9rem;
+  font-family: inherit;
+  color: var(--text-primary);
+  outline: none;
+  transition: all 0.25s ease;
+}
+.hs-input::placeholder { color: var(--text-tertiary); }
+.hs-input:focus {
+  width: 280px;
+  border-color: var(--primary-light);
+  background: #fff;
+  box-shadow: 0 0 0 4px rgba(99,102,241,0.08);
+}
+.hs-results {
+  position: absolute;
+  top: calc(100% + 10px);
+  right: 0;
+  width: 400px;
+  max-height: 440px;
+  overflow-y: auto;
+  background: #fff;
+  border: 1px solid var(--border);
+  border-radius: 16px;
+  box-shadow: var(--shadow-lg);
+  padding: 6px;
+  z-index: 1001;
+  animation: hsFadeIn 0.15s ease;
+}
+@keyframes hsFadeIn {
+  from { opacity: 0; transform: translateY(-4px); }
+  to { opacity: 1; transform: translateY(0); }
+}
+.hs-item {
+  display: flex;
+  flex-direction: column;
+  gap: 2px;
+  padding: 10px 14px;
+  border-radius: 10px;
+  transition: background 0.15s ease;
+}
+.hs-item:hover, .hs-item.active { background: rgba(99,102,241,0.07); }
+.hs-item-tag {
+  color: var(--primary);
+  font-size: 0.72rem;
+  font-weight: 700;
+  letter-spacing: 0.02em;
+}
+.hs-item-title {
+  color: var(--text-primary);
+  font-size: 0.9rem;
+  font-weight: 600;
+  line-height: 1.4;
+}
+.hs-item-desc {
+  color: var(--text-tertiary);
+  font-size: 0.8rem;
+  line-height: 1.5;
+  display: -webkit-box;
+  -webkit-line-clamp: 1;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+}
+.hs-more { border-top: 1px solid var(--border-light); border-radius: 0 0 10px 10px; margin-top: 4px; }
+.hs-empty {
+  padding: 18px 14px;
+  text-align: center;
+  color: var(--text-tertiary);
+  font-size: 0.88rem;
+}
+@media (max-width: 960px) {
+  .hs-input { width: 150px; }
+  .hs-input:focus { width: 190px; }
+  .hs-results { width: 320px; }
+}
+@media (max-width: 768px) {
+  .header-search { display: none; }
+}
