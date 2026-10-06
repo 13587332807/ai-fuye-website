@@ -5,7 +5,7 @@
     <link>https://aifuye.net/</link>
     <description>AI副业指南提供2026年最全面的AI副业变现方法、工具推荐和实战教程。涵盖AI写作、AI绘画、AI视频、AI编程等方向。</description>
     <language>zh-CN</language>
-    <lastBuildDate>Mon, 05 Oct 2026 12:00:00 +0800</lastBuildDate>
+    <lastBuildDate>Wed, 07 Oct 2026 12:00:00 +0800</lastBuildDate>
     <atom:link href="https://aifuye.net/feed.xml" rel="self" type="application/rss+xml"/>
     <generator>AI副业指南</generator>
     <image>
@@ -13,6 +13,24 @@
       <title>AI副业指南</title>
       <link>https://aifuye.net/</link>
     </image>
+
+    <item>
+      <title>AI声音克隆配音副业指南：录15分钟，让你的声音替你打工</title>
+      <link>https://aifuye.net/articles/ai-voice-cloning.html</link>
+      <guid isPermaLink="true">https://aifuye.net/articles/ai-voice-cloning.html</guid>
+      <pubDate>Wed, 07 Oct 2026 12:00:00 +0800</pubDate>
+      <description>2026年AI声音克隆爆发：录15分钟样本，AI就能用你的声音无限接单。魔音工坊/ElevenLabs/讯飞等6大工具横评、接单流程、定价策略、出海配音与合规红线全拆解，月入8000-20000元。</description>
+      <category>AI配音</category>
+    </item>
+
+    <item>
+      <title>AI壁纸赚钱副业指南：0成本生成上架，从闲鱼9.9元到Etsy月入1.5万刀</title>
+      <link>https://aifuye.net/articles/ai-wallpaper-money.html</link>
+      <guid isPermaLink="true">https://aifuye.net/articles/ai-wallpaper-money.html</guid>
+      <pubDate>Wed, 07 Oct 2026 12:00:00 +0800</pubDate>
+      <description>AI壁纸是最低成本的数字产品副业：一次生产无限售卖。闲鱼合集9.9-19.9元、小红书单张12.9元+、Etsy数字下载月入1.5万刀案例全拆解，含提示词模板与2026年平台版权新规。</description>
+      <category>AI壁纸</category>
+    </item>
 
     <item>
       <title>AI口播视频副业指南：不露脸不背稿，一条视频10分钟，月入8000+</title>
