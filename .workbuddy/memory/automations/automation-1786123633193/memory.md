@@ -130,3 +130,37 @@
 - `scripts/generate-search-index.py` 扫描全部HTML生成 `js/search-index.js`（含标题/描述/关键词/H2/正文前2500字）
 - `js/search.js` 动态加载该索引，正文计分搜索
 - **⚠️ 以后每次自动化新增/修改文章，git push 前必须先运行 `python scripts/generate-search-index.py` 重新生成索引，否则新内容搜不到**
+
+---
+
+## 2026-10-07 第五次执行
+
+**任务**：为 aifuye.net 新增2篇AI副业热点文章，Git推送上线。
+
+**选定主题**（联网搜索后确定，声音克隆接单+数字壁纸双热点）：
+1. **AI声音克隆配音副业指南** — 声音"一次录制无限复用"：录15分钟样本无限接单，魔音工坊3秒克隆/ElevenLabs $5/月/讯飞授权最正规，全职月入12000-20000元
+2. **AI壁纸赚钱副业指南** — 最低成本数字产品：一次生产无限售卖，闲鱼合集9.9-19.9元→小红书单张12.9元+→Etsy数字下载20链接月入1.5万刀案例
+
+**执行内容**：
+- 新建文件：`articles/ai-voice-cloning.html`、`articles/ai-wallpaper-money.html`
+- 更新首页 `index.html`：最前面插入2张新卡片，删除3张最旧卡片（09-02漫剧制作/漫剧变现、09-07儿童绘本8450阅读——同日期对中阅读量较低者），10+2-3=9张 ✅
+- 更新文章列表页 `articles/index.html`：最前面添加2张新卡片，新增"AI配音"和"AI壁纸"两个分类标签
+- 更新 `sitemap.xml`：添加2条新URL（priority 0.9，lastmod 2026-10-07）
+- 更新 `llms-full.txt`：追加 6.20、6.21 两节摘要，"最后更新"改为2026-10-07，URL总数 25→27
+- 更新 `feed.xml`：最前面添加2个新item，lastBuildDate 改为 Wed, 07 Oct 2026
+- **运行 `scripts/generate-search-index.py`**：33页全量索引重建，两篇新文章均已收录 ✅（按上次记录的强制要求执行）
+
+**Git 操作**：
+- 提交：`8b09df2` — "feat: 新增2篇AI副业热点文章 - AI声音克隆配音副业指南 / AI壁纸赚钱副业指南"（9 files changed, 920 insertions）
+- 推送：`ac3635a..8b09df2 main -> main` ✅ 成功
+- Vercel 将在收到推送后自动部署
+
+**文章质量（自动校验通过）**：
+- 声音克隆文：10个H2、4个compare-table、7个info/tip-box、3个code-block（接单话术/情感参数/Fiverr文案）、4个FAQ与JSON-LD对应、5062中文字
+- 壁纸文：10个H2、3个compare-table、5个info/tip-box、3个code-block（治愈系/极简系/Etsy英文模板）、4个FAQ与JSON-LD对应、4521中文字
+- 配色：声音克隆文 #6366f1→#a855f7（紫粉系）；壁纸文 #ef4444→#a855f7（红紫系）
+- CTA互相导流：声音克隆文底部→壁纸文，壁纸文底部→声音克隆文
+- 阅读量：声音克隆文 5,870；壁纸文 4,930
+- 数据来源核实：魔音工坊2026年3月官方收费档位、闲鱼AI技能接单占45%、Etsy 2026 AI披露新规、2024年首例AI声音侵权案判赔25万
+
+**下次执行时**：可继续方向：AI取名服务、AI电子书出版、AI短视频脚本、AI MCN机构、AI电商主图设计、AI翻译副业等。注意首页卡片数每次都要校验保持9张；git push 前必须重跑搜索索引脚本。

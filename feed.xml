@@ -5,7 +5,7 @@
     <link>https://aifuye.net/</link>
     <description>AI副业指南提供2026年最全面的AI副业变现方法、工具推荐和实战教程。涵盖AI写作、AI绘画、AI视频、AI编程等方向。</description>
     <language>zh-CN</language>
-    <lastBuildDate>Wed, 07 Oct 2026 12:00:00 +0800</lastBuildDate>
+    <lastBuildDate>Mon, 12 Oct 2026 12:00:00 +0800</lastBuildDate>
     <atom:link href="https://aifuye.net/feed.xml" rel="self" type="application/rss+xml"/>
     <generator>AI副业指南</generator>
     <image>
@@ -14,6 +14,22 @@
       <link>https://aifuye.net/</link>
     </image>
 
+    <item>
+      <title>AI电商主图设计副业指南：双11前最缺人的技能，一单50-500元</title>
+      <link>https://aifuye.net/articles/ai-ecommerce-main-image.html</link>
+      <guid isPermaLink="true">https://aifuye.net/articles/ai-ecommerce-main-image.html</guid>
+      <pubDate>Mon, 12 Oct 2026 08:00:00 +0800</pubDate>
+      <description>大促季主图需求爆发：AI抠图换背景+模板排版，不懂PS也能10分钟出稿，一单50-500元，工具横评、接单渠道与定价策略全拆解</description>
+      <category>AI电商设计</category>
+    </item>
+    <item>
+      <title>AI取名服务副业指南：宝宝起名一单100-500元，月入2万的冷门生意</title>
+      <link>https://aifuye.net/articles/ai-naming-service.html</link>
+      <guid isPermaLink="true">https://aifuye.net/articles/ai-naming-service.html</guid>
+      <pubDate>Mon, 12 Oct 2026 08:00:00 +0800</pubDate>
+      <description>取名是常青刚需：AI批量取名+五格筛查+小红书引流，从知识速成到提示词模板的完整跑通攻略</description>
+      <category>AI取名</category>
+    </item>
     <item>
       <title>AI声音克隆配音副业指南：录15分钟，让你的声音替你打工</title>
       <link>https://aifuye.net/articles/ai-voice-cloning.html</link>
