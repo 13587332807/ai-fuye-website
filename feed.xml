@@ -5,7 +5,7 @@
     <link>https://aifuye.net/</link>
     <description>AI副业指南提供2026年最全面的AI副业变现方法、工具推荐和实战教程。涵盖AI写作、AI绘画、AI视频、AI编程等方向。</description>
     <language>zh-CN</language>
-    <lastBuildDate>Sat, 17 Oct 2026 00:20:00 +0800</lastBuildDate>
+    <lastBuildDate>Thu, 22 Oct 2026 00:10:00 +0800</lastBuildDate>
     <atom:link href="https://aifuye.net/feed.xml" rel="self" type="application/rss+xml"/>
     <generator>AI副业指南</generator>
     <image>
@@ -13,6 +13,23 @@
       <title>AI副业指南</title>
       <link>https://aifuye.net/</link>
     </image>
+
+    <item>
+      <title>AI电子书出版副业指南：一本电子书卖全球，版税月入3000+</title>
+      <link>https://aifuye.net/articles/ai-ebook-publishing.html</link>
+      <guid isPermaLink="true">https://aifuye.net/articles/ai-ebook-publishing.html</guid>
+      <pubDate>Thu, 22 Oct 2026 00:10:00 +0800</pubDate>
+      <description>AI辅助写作+KDP 70%版税+多平台分发，一次写作长期收钱。平台对比、选题策略、AI写作全流程与AI内容披露规则全拆解</description>
+      <category>AI电子书</category>
+    </item>
+    <item>
+      <title>AI短视频脚本代写副业指南：一条80元，包月客户月入过万</title>
+      <link>https://aifuye.net/articles/ai-short-video-script.html</link>
+      <guid isPermaLink="true">https://aifuye.net/articles/ai-short-video-script.html</guid>
+      <pubDate>Thu, 22 Oct 2026 00:10:00 +0800</pubDate>
+      <description>AI脚本15分钟一条，口播80-150元/条，万能公式+提示词模板+接单定价全流程拆解，新手月入3000-15000</description>
+      <category>AI脚本</category>
+    </item>
 
     <item>
       <title>AI播客制作副业指南：不录音不剪辑，一个人做一档节目月入5000+</title>
